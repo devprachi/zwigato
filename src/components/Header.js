@@ -14,7 +14,9 @@ const Header = () => {
       <div className="px-5 py-0">
         <ul className="flex text-2xl list-none">
           {menuItems.map((menu) => (
-            <li className="m-2.5 p-2.5">{menu}</li>
+            <li key={menu} className="m-2.5 p-2.5">
+              {menu}
+            </li>
           ))}
         </ul>
       </div>

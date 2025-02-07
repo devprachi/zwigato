@@ -67,7 +67,8 @@ export const RESTAURANTS = [
       restaurantOfferPresentationInfo: {},
       externalRatings: {
         aggregatedRating: {
-          rating: "--",
+          rating: "4.3",
+          ratingCount: "3.4K+",
         },
       },
       ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
@@ -243,7 +244,8 @@ export const RESTAURANTS = [
       restaurantOfferPresentationInfo: {},
       externalRatings: {
         aggregatedRating: {
-          rating: "--",
+          rating: "4.2",
+          ratingCount: "4.6K+",
         },
       },
       ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
@@ -359,9 +361,9 @@ export const RESTAURANTS = [
       areaName: "Koramangala",
       costForTwo: "₹350 for two",
       cuisines: ["Andhra", "Biryani", "South Indian"],
-      avgRating: 4.5,
+      avgRating: 3.5,
       parentId: "10496",
-      avgRatingString: "4.5",
+      avgRatingString: "3.5",
       totalRatingsString: "5.6K+",
       sla: {
         deliveryTime: 25,
@@ -414,7 +416,8 @@ export const RESTAURANTS = [
       restaurantOfferPresentationInfo: {},
       externalRatings: {
         aggregatedRating: {
-          rating: "--",
+          rating: "3.5",
+          ratingCount: "5.6K+",
         },
       },
       ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
@@ -498,7 +501,8 @@ export const RESTAURANTS = [
       restaurantOfferPresentationInfo: {},
       externalRatings: {
         aggregatedRating: {
-          rating: "--",
+          rating: "4.6",
+          ratingCount: "524",
         },
       },
       ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
@@ -582,7 +586,8 @@ export const RESTAURANTS = [
       restaurantOfferPresentationInfo: {},
       externalRatings: {
         aggregatedRating: {
-          rating: "--",
+          rating: "4.4",
+          ratingCount: "563",
         },
       },
       ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
@@ -1129,7 +1134,8 @@ export const RESTAURANTS = [
       restaurantOfferPresentationInfo: {},
       externalRatings: {
         aggregatedRating: {
-          rating: "--",
+          rating: "4.3",
+          ratingCount: "7.6K+",
         },
       },
       ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
@@ -1213,10 +1219,11 @@ export const RESTAURANTS = [
       restaurantOfferPresentationInfo: {},
       externalRatings: {
         aggregatedRating: {
-          rating: "--",
+          rating: "4.7",
+          ratingCount: "1.0K+",
         },
       },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+      ratingsDisplayPrefrence: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
     },
     analytics: {
       context: "seo-data-ed9802b5-6abb-494b-8ba1-559f2b55db51",
