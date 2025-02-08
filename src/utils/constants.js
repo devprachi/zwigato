@@ -3,3 +3,8 @@ export const IMAGE_CDN =
 
 export const LOGO_URL =
   "https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png";
+
+export const SWIGGY_API =
+  "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351&lng=77.624&page_type=DESKTOP_WEB_LISTING";
+
+// https://corsproxy.io/?

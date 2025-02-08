@@ -1,6 +1,6 @@
 import { IMAGE_CDN } from "../utils/constants";
 
-const RestaurantCard = ({ restaurantDetails }) => {
+const RestaurantCard = ({ restaurantDetails, isLoading = false }) => {
   const {
     name,
     costForTwo,
@@ -11,10 +11,10 @@ const RestaurantCard = ({ restaurantDetails }) => {
   } = restaurantDetails;
   const imgUrl = `${IMAGE_CDN}${cloudinaryImageId}`;
   return (
-    <div className="flex flex-col h-[370px] shadow-2xl rounded-xl">
+    <div className="flex flex-col h-[370px] shadow-2xl rounded-md border-[#f0eceb]">
       <img
         src={imgUrl}
-        className="h-[200px] aspect-[1] object-cover rounded-t-xl"
+        className="h-[200px] aspect-[1] object-cover rounded-t-md"
       />
       <div className="p-2.5 flex flex-col grow justify-between">
         <div className="text-2xl font-semibold leading-8">{name}</div>
